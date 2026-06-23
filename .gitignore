@@ -1,6 +1,7 @@
 # ── Raw Data (크기가 크거나 재다운로드 가능한 파일) ──────────────
 01.Raw_Data/01.WSI/          # WSI SVS 파일 (파일당 수백MB~2GB)
-01.Raw_Data/03.Genomics/     # RNA-seq 원본 파일
+# RNA-seq 원본 TSV (~340 MB, 재다운로드 가능) - 처리된 CSV만 커밋
+01.Raw_Data/03.Genomics/01.RNAseq/
 
 # 임상 데이터 중 대용량 원본
 01.Raw_Data/02.Clinical/*.tar.gz
