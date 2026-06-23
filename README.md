@@ -60,7 +60,39 @@ conda activate uvm
 
 - [x] 임상 데이터 수집 및 마스터 테이블 구성
 - [x] EDA (Cluster 분포, KM 생존 곡선, 돌연변이 landscape)
-- [ ] RNA-seq 다운로드
+- [x] RNA-seq 다운로드 및 행렬 구성
 - [ ] WSI 다운로드 (집 GPU PC)
 - [ ] WSI 전처리 (타일링, feature 추출)
 - [ ] 멀티모달 모델 구현
+
+## References
+
+1. **Robertson et al. (2017)**
+   Integrative Analysis Identifies Four Molecular and Clinical Subsets in Uveal Melanoma.
+   *Cancer Cell*, 32(2), 204–220.
+   https://doi.org/10.1016/j.ccell.2017.07.003
+   > TCGA-UVM 코호트 주 논문. SCNA Cluster 1~4 분자 서브타입 정의, Table S1 (환자별 서브타입 레이블) 출처.
+
+2. **Liu et al. (2018)**
+   An Integrated TCGA Pan-Cancer Clinical Data Resource to Drive High-Quality Survival Outcome Analytics.
+   *Cell*, 173(2), 400–416.
+   https://doi.org/10.1016/j.cell.2018.02.052
+   > TCGA-CDR. OS / DSS / DFI / PFI 표준화 생존 데이터 출처.
+
+3. **TCGA Research Network (2013)**
+   The Cancer Genome Atlas Pan-Cancer analysis project.
+   *Nature Genetics*, 45, 1113–1120.
+   https://doi.org/10.1038/ng.2764
+   > TCGA 전체 프로젝트 기준 논문.
+
+4. **GDC (Grossman et al., 2016)**
+   Toward a Shared Vision for Cancer Genomic Data.
+   *New England Journal of Medicine*, 375, 1109–1112.
+   https://doi.org/10.1056/NEJMp1607591
+   > GDC Portal (portal.gdc.cancer.gov) 데이터 다운로드 플랫폼.
+
+5. **TCIA (Clark et al., 2013)**
+   The Cancer Imaging Archive (TCIA): Maintaining and Operating a Public Information Repository.
+   *Journal of Digital Imaging*, 26, 1045–1057.
+   https://doi.org/10.1007/s10278-013-9622-7
+   > TCIA (cancerimagingarchive.net) WSI 이미지 다운로드 플랫폼.
